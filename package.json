@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0"
+  },
+  "name": "retrogames-app",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000r\u0000e\u0000t\u0000r\u0000o\u0000G\u0000a\u0000m\u0000e\u0000s\u0000_\u0000L\u0000I\u0000M\u0000A\u0000\r\u0000 \u0000`\u0000`\u0000`\u0000 \u0000p\u0000�\u0000g\u0000i\u0000n\u0000a\u0000 \u0000i\u0000n\u0000i\u0000c\u0000i\u0000a\u0000l\u0000 \u0000d\u0000o\u0000 \u0000s\u0000i\u0000t\u0000e\u0000 \u0000a\u0000p\u0000�\u0000s\u0000 \u0000c\u0000a\u0000d\u0000a\u0000s\u0000t\u0000r\u0000o\u0000 \u0000`\u0000`\u0000`\u0000\r\u0000 \u0000!\u0000[\u0000p\u0000a\u0000g\u0000]\u0000(\u0000/\u0000p\u0000a\u0000g\u0000I\u0000n\u0000i\u0000c\u0000i\u0000a\u0000l\u0000.\u0000p\u0000n\u0000g\u0000)\u0000",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anaalvesss/retroGames_LIMA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/anaalvesss/retroGames_LIMA/issues"
+  },
+  "homepage": "https://github.com/anaalvesss/retroGames_LIMA#readme"
+}
