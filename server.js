@@ -9,7 +9,6 @@ const db = mysql.createConnection({
     database: "db_retrogames"
 })
 
-//testar conexão
 db.connect((erro)=>{
     if(erro){
         console.error("Erro ao conectar:", erro)
@@ -18,7 +17,6 @@ db.connect((erro)=>{
     }
 })
 
-//listar todos os jogos
 const mostrarDiscos = (req, res) => {
     const sql = "SELECT titulo , plataforma, desenvolvedora, imagem_url AS imagem, preco FROM jogos"
     db.query(sql, (erro, resultado) => {
@@ -28,7 +26,7 @@ const mostrarDiscos = (req, res) => {
         res.json(resultado)
     })
 }
-//Cadastrar Jogos titulo, plataforma, desenvolvedora, imagem_url, preco
+//titulo, plataforma, desenvolvedora, imagem_url, preco
 const cadastrarJogo = (req, res) => {
     const { titulo, plataforma, desenvolvedora, imagem, preco } = req.body
 
@@ -47,7 +45,6 @@ const cadastrarJogo = (req, res) => {
         res.status(400).json({erro: "Erro: preencha todos os campos"})
     }
 }
-//Middleware
 
 const app = express()
 
@@ -57,7 +54,6 @@ app.use(express.urlencoded({extended: true}))
 
 const PORT = 3000
 
-//Rotas
 app.get("/listar", mostrarJogos)
 app.post("/cadastrar", cadastrarJogo)
 
