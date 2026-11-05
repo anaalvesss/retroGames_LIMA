@@ -14,10 +14,10 @@ CREATE TABLE IF NOT EXISTS jogos (
 INSERT INTO jogos (titulo, plataforma, desenvolvedora, imagem_url, preco)
 VALUES
 ('Super Mario World', 'SNES', 'Nintendo',
-'https://placehold.co/300x200', 149.90),
+'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTraCIE9Us-7DIEtpH4DzckhX-hxi1GJbbo023AC8QCBzYdFVVVbIzWz0Pm&s=10', 149.90),
 
 ('Sonic', 'Mega Drive', 'Sega',
-'https://placehold.co/300x200', 99.90),
+'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD_j4Bpx8KxtykRFFagEadfwPTmmvyID2ngZ4Bxkoj9AaN1aKB8qNmzGyJ&s=10', 99.90),
 
 ('Crash Bandicoot', 'PlayStation 1', 'Naughty Dog',
-'https://placehold.co/300x200', 129.90);
+'https://static.wikia.nocookie.net/crashbandicoot/images/5/58/Bandicoot.png/revision/latest?cb=20080719231406&path-prefix=pt', 129.90);

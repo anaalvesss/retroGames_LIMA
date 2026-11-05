@@ -17,7 +17,7 @@ db.connect((erro)=>{
     }
 })
 
-const mostrarDiscos = (req, res) => {
+const mostrarJogos = (req, res) => {
     const sql = "SELECT titulo , plataforma, desenvolvedora, imagem_url AS imagem, preco FROM jogos"
     db.query(sql, (erro, resultado) => {
         if(erro){
